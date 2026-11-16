@@ -1,0 +1,21 @@
+# Biner hasil build
+/zulip
+/zulip.exe
+/zulip-*.exe
+*.exe
+
+# Paket rilis
+/dist/
+
+# Korpus uji lokal (berisi berkas proprietary pihak ketiga — jangan
+# pernah dipublikasikan) dan keluaran pengujian
+/testdata/
+*.zynx
+*.zynx.*
+*.zip
+!gui/*.png
+
+# Log & sampah lokal
+gui-debug.log
+*.log
+STUDY_LIST_NEXT_TOOLS.md

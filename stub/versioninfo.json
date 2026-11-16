@@ -1,0 +1,22 @@
+{
+  "FixedFileInfo": {
+    "FileVersion": {"Major": 0, "Minor": 8, "Patch": 0, "Build": 0},
+    "ProductVersion": {"Major": 0, "Minor": 8, "Patch": 0, "Build": 0},
+    "FileFlagsMask": "3f",
+    "FileFlags": "00",
+    "FileOS": "040004",
+    "FileType": "01",
+    "FileSubType": "00"
+  },
+  "StringFileInfo": {
+    "CompanyName": "Muhammad Aditya Pratama",
+    "FileDescription": "zulip SFX stub — pengekstrak arsip .zynx mandiri",
+    "FileVersion": "0.8.0",
+    "InternalName": "zulip-stub",
+    "LegalCopyright": "© 2026 Muhammad Aditya Pratama",
+    "OriginalFilename": "zulip-stub.exe",
+    "ProductName": "zulip",
+    "ProductVersion": "0.8.0"
+  },
+  "VarFileInfo": {"Translation": {"LangID": "0409", "CharsetID": "04B0"}}
+}
