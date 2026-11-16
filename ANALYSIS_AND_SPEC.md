@@ -847,3 +847,25 @@ hidup, quickadd profil Normal menghasilkan arsip benar dalam hitungan
 detik dan aplikasi menutup sendiri. Sisa penghalang publish yang
 jujur di luar kode: code signing berbayar (SmartScreen) dan keputusan
 nama "zulip" — keduanya dicatat di BACA-DULU paket.
+
+---
+
+## 22. Publikasi GitHub (16 Nov 2026)
+
+Atas perintah Commander ("finalisasi baru kita up ke github ku"),
+repo difinalisasi lalu diterbitkan PUBLIK sebagai
+github.com/Kaezaen/zulip — nama polos "zulip" dipilih Commander
+sendiri lewat opsi eksplisit, mengesampingkan rekomendasi
+"zulip-zynx"; risiko nama tetap tercatat di README.
+
+Finalisasi: README ditulis ulang untuk pembaca GitHub (fitur
+berbagi SFX/ZIP, angka VM + perangkat nyata, batas jujur, build
+dari sumber); .gitignore ketat mengecualikan /dist, biner, dan
+SELURUH testdata (korpus berisi berkas proprietary WinRAR — tidak
+boleh terbit); stub/ kini berisi SALINAN berkas jalur-baca, bukan
+symlink, agar clone Windows bisa build (segarkan via sync-stub.sh);
+commit awal 84fd232 + tag anotasi v0.8.0. Login gh via device flow
+di browser Muse (Commander login sendiri sebagai Kaezaen).
+Release v0.8.0 terbit dengan aset zulip-0.8.0-windows.zip
+(8.531.556 byte) dan topik repo terpasang. Sisa penghalang publish
+yang belum berubah: code signing berbayar (SmartScreen).
